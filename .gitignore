@@ -1,0 +1,53 @@
+# ── Node / Frontend ──────────────────────────────
+node_modules/
+dist/
+.env
+.env.local
+.env.*.local
+frontend/.env
+frontend/node_modules/
+frontend/dist/
+
+# ── Python / Backend ─────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+.eggs/
+build/
+dist/
+*.so
+.Python
+venv/
+env/
+.venv/
+backend/.env
+backend/portfolio.db
+backend/alembic.ini
+*.db
+*.sqlite3
+
+# ── Alembic ──────────────────────────────────────
+backend/migrations/versions/*.py
+
+# ── IDE / Editor ─────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ── Docker ───────────────────────────────────────
+.dockerignore
+
+# ── Testing ──────────────────────────────────────
+.pytest_cache/
+htmlcov/
+.coverage
+
+# ── Logs ─────────────────────────────────────────
+*.log
+logs/
